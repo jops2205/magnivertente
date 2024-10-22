@@ -7,7 +7,7 @@ const Layout = () => {
   return (
     <div className="flex min-h-screen flex-col">
       <div className="flex items-center justify-end bg-stone-800 px-6 py-2.5 sm:justify-between sm:px-8 md:px-12">
-        <div className="hidden sm:block">
+        <div className="hidden text-stone-100 sm:block">
           <Location hasIcon />
         </div>
         <SocialMedia />
